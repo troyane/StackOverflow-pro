@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>View3dPerspective.qml</file>
+        <file>View3dOrtho.qml</file>
+    </qresource>
+</RCC>
