@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>526</width>
-    <height>552</height>
+    <width>634</width>
+    <height>639</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -53,6 +53,12 @@
           <height>100</height>
          </size>
         </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>250</height>
+         </size>
+        </property>
         <property name="text">
          <string>BigButton</string>
         </property>
@@ -70,6 +76,12 @@
          <size>
           <width>0</width>
           <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>250</height>
          </size>
         </property>
         <property name="text">
@@ -120,7 +132,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>526</width>
+     <width>634</width>
      <height>24</height>
     </rect>
    </property>
