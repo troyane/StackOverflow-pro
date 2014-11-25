@@ -7,7 +7,8 @@ Table of Contents
 =================
 
  - [qt3d_ortho_vs_persp](https://github.com/troyane/StackOverflow-pro/tree/master/qt3d_ortho_vs_persp) -- sources for SO question [Near clipping plane behavior in different projections type (ortho vs perspective) in Qt3d/QtQuick3d](http://stackoverflow.com/questions/25243231/near-clipping-plane-behavior-in-different-projections-type-ortho-vs-perspective)
-
+ - [creating-auto-scaling-qt-ui-using-layouts](https://github.com/troyane/StackOverflow-pro/tree/master/creating-auto-scaling-qt-ui-using-layouts) - sources for SO question [Creating auto-scaling Qt UI using Layouts](http://stackoverflow.com/questions/25573346/creating-auto-scaling-qt-ui-using-layouts)
+ - [chrome-tabs](https://github.com/troyane/StackOverflow-pro/tree/master/chrome-tabs) -- sources for SO question [How can I add a “new tab” button next to the tabs of a QMdiArea in tabbed view mode?](http://stackoverflow.com/questions/19975137/how-can-i-add-a-new-tab-button-next-to-the-tabs-of-a-qmdiarea-in-tabbed-view-m)
 
 Note
 ====
