@@ -1,3 +1,7 @@
+// main.qml
+//
+// Created by troyane@github
+
 import QtQuick 2.4
 import QtQuick.Window 2.2
 
@@ -15,29 +19,49 @@ Window {
         color: "red"
         Text {
             anchors.centerIn: parent
-            text: "I'm here"
+            text: "I'm here. Grab me!"
         }
     }
 
+    // -------------------------------------------------------------------------
+    // FIRST APPROACH: use grabToImage function. In this example we invoke this
+    // function from main.cpp:24
+    // Also this function can be called inside QML.
+    // -------------------------------------------------------------------------
+
+    // what -- name of item needed to be grabbed
+    // where -- string
     function render(what, where) {
-        var i;
+        // Find existent item with given name `what`
+        var i = 0
+        var found = false
         for (i = 0; i < window.contentItem.children.length; i++) {
-            print("item "+i);
-            print(window.contentItem.children[i].objectName);
             if (window.contentItem.children[i].objectName === what) {
-                break;
+                // We found respective item
+                found = true
+                break
             }
         }
-        var citem = window.contentItem.children[i];
-        citem.grabToImage( function(result) { result.saveToFile(where); });
+        if (found) {
+            console.log("We found item " + what + ". Grabbing it to " + where)
+            var item = window.contentItem.children[i]
+            // Grab image and save it (via callback f-ion)
+            item.grabToImage( function(result) { result.saveToFile(where) })
+        } else {
+            console.warn("No item called " + what)
+        }
     }
 
-//    ShaderEffectSource {
-//        objectName: "renderRect"
-//        width: rect.width
-//        height: rect.height
-//        sourceItem: rect
-//        visible: false
-//    }
-
+    // -------------------------------------------------------------------------
+    // SECOND APPROACH: use ShaderEffectSource with respective sourceItem. Now
+    // shaderSrc contains your grabbed item.
+    // -------------------------------------------------------------------------
+    ShaderEffectSource {
+        id: shaderSrc
+        objectName: "renderRect"
+        width: rect.width
+        height: rect.height
+        sourceItem: rect
+        visible: false
+    }
 }
