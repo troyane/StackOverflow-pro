@@ -1,0 +1,20 @@
+# Qt-es
+*.pyc
+.DS_Store
+.vscode
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*-build-*
+# QtCreator
+*.autosave
+*.user
+build-*
+release
+*.o
