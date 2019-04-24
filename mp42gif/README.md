@@ -3,8 +3,8 @@
 It creates intermediate custom color palette out of input video file and use it for resulting GIF for better picture quality. 
 
 For more info see next articles (with examples):
-* [https://superuser.com/a/556031](Answer on SuperUser regarding picture quality)
-* [https://medium.com/@colten_jackson/doing-the-gif-thing-on-debian-82b9760a8483](Colten Jackson's article "High Quality Gifs with FFMPEG")
+* [Answer on SuperUser regarding picture quality](https://superuser.com/a/556031)
+* [Colten Jackson's article "High Quality Gifs with FFMPEG"](https://medium.com/@colten_jackson/doing-the-gif-thing-on-debian-82b9760a8483)
 
 
 # Obtaining sources
