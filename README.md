@@ -1,14 +1,25 @@
 StackOverflow-pro
 =================
 
-Repository with stackoverflow-related projects (questions, answers, ...)
+Repository with mostly StackOverflow-related projects (questions, answers, etc).
+
+Each subfolder contains README inside.
+
+
 
 Table of Contents
 =================
 
- - [qt3d_ortho_vs_persp](https://github.com/troyane/StackOverflow-pro/tree/master/qt3d_ortho_vs_persp) -- sources for SO question [Near clipping plane behavior in different projections type (ortho vs perspective) in Qt3d/QtQuick3d](http://stackoverflow.com/questions/25243231/near-clipping-plane-behavior-in-different-projections-type-ortho-vs-perspective)
- - [creating-auto-scaling-qt-ui-using-layouts](https://github.com/troyane/StackOverflow-pro/tree/master/creating-auto-scaling-qt-ui-using-layouts) - sources for SO question [Creating auto-scaling Qt UI using Layouts](http://stackoverflow.com/questions/25573346/creating-auto-scaling-qt-ui-using-layouts)
- - [chrome-tabs](https://github.com/troyane/StackOverflow-pro/tree/master/chrome-tabs) -- sources for SO question [How can I add a “new tab” button next to the tabs of a QMdiArea in tabbed view mode?](http://stackoverflow.com/questions/19975137/how-can-i-add-a-new-tab-button-next-to-the-tabs-of-a-qmdiarea-in-tabbed-view-m)
+ - [Advanced list model snippet](https://github.com/troyane/StackOverflow-pro/tree/master/AdvModel_qml)
+ - [Chrome-like tabs snippet](https://github.com/troyane/StackOverflow-pro/tree/master/chrome-tabs)
+ - [Creating auto-scaling Qt UI using Layouts](https://github.com/troyane/StackOverflow-pro/tree/master/creating-auto-scaling-qt-ui-using-layouts)
+ - [Custom QObject*-based list model for QML](https://github.com/troyane/StackOverflow-pro/tree/master/custom-list-for-qml)
+ - [QML ListView: Flickable as delegate cannot be scrollable](https://github.com/troyane/StackOverflow-pro/tree/master/flickable)
+ - [Grabbing of QQuickItem](https://github.com/troyane/StackOverflow-pro/tree/master/grab_qml_item)
+ - [Script to convert MP4 file to GIF (via ffmpeg)](https://github.com/troyane/StackOverflow-pro/tree/master/mp42gif)
+ - [Qt3d Ortho vs Perspective Projections](https://github.com/troyane/StackOverflow-pro/tree/master/qt3d_ortho_vs_persp)
+ - [QML 'Custom Menu' option moving upwards](https://github.com/troyane/StackOverflow-pro/tree/master/so_smooth)
+ 
 
 Note
 ====
