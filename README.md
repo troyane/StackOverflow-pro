@@ -1,7 +1,7 @@
 StackOverflow-pro
 =================
 
-Repository with mostly StackOverflow-related projects (questions, answers, etc).
+Repository with mostly StackOverflow-related projects (code examples related to questions, answers, etc).
 
 Each subfolder contains README inside.
 
