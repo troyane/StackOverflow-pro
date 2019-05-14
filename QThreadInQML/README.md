@@ -11,3 +11,28 @@ you must execute next command:
 ```
 svn checkout https://github.com/troyane/StackOverflow-pro/trunk/QThreadInQML
 ```
+
+Application run example
+=======================
+![](qml_async.gif)
+
+
+Expected output
+===============
+
+```
+Now worker is placed in:  QThread(0x560526366240, name = "MainThread")
+Now worker is placed in:  QThread(0x560526414030, name = "WorkerThread")
+Doing some job here...
+Input string:  "QML Async works well"
+Now worker is placed in:  QThread(0x560526366240, name = "MainThread")
+Now worker is placed in:  QThread(0x560526414030, name = "WorkerThread")
+Doing some job here...
+Input string:  "QML Async works well"
+Now worker is placed in:  QThread(0x560526366240, name = "MainThread")
+Now worker is placed in:  QThread(0x560526414030, name = "WorkerThread")
+Doing some job here...
+Input string:  "QML Async works great"
+Quit worker thread, and wait until it ends.
+```
+
