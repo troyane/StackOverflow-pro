@@ -4,6 +4,7 @@ This folder consists of sources for question ["TableView replacement for TableVi
 
 It is an easy way to get application entirely in QML (whiteout need to use C++ and/or old QtQuick.Controls 1):
 
+![Application Example](ApplicationExample.png)
 
 
 # Obtaining sources
