@@ -1,14 +1,11 @@
-StackOverflow-pro
-=================
+# StackOverflow-pro
 
 Repository with mostly StackOverflow-related projects (code examples related to questions, answers, etc).
 
-Each subfolder contains README inside.
+Each sub-folder contains README inside.
 
 
-
-Table of Contents
-=================
+# Table of Contents
 
  - [Advanced list model snippet](https://github.com/troyane/StackOverflow-pro/tree/master/AdvModel_qml)
  - [Chrome-like tabs snippet](https://github.com/troyane/StackOverflow-pro/tree/master/chrome-tabs)
@@ -19,10 +16,10 @@ Table of Contents
  - [Script to convert MP4 file to GIF (via ffmpeg)](https://github.com/troyane/StackOverflow-pro/tree/master/mp42gif)
  - [Qt3d Ortho vs Perspective Projections](https://github.com/troyane/StackOverflow-pro/tree/master/qt3d_ortho_vs_persp)
  - [QML 'Custom Menu' option moving upwards](https://github.com/troyane/StackOverflow-pro/tree/master/so_smooth)
+ - [Example of usage of `TableView`/`TableModel` from  `Qt.labs.qmlmodels`](/TestTableViewModels)
  
 
-Note
-====
+# Note
 
 To download specific folder you can use [SVN](https://subversion.apache.org/packages.html). 
 
